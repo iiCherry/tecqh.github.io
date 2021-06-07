@@ -1,3 +1,4 @@
-# TechPoint's Website
+# TechPoint's Website🎨
+![YouTube](https://img.shields.io/youtube/channel/subscribers/UCwhBpx4YeI5UwloKvEYZ5kw?style=social)
 
-Yes, this is my website, if you're wondering, I'm new to HTML, most of the indexes are from [HTML5UP](https://html5up.net)
+Hi, this is my website's files and stuff so yeah. Also, most of the subpages are very pog templates from [HTML5UP](https://html5up.net),you should totally check them out
