@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Clippy</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta author="Alex B" />
+    <meta property="og:image" content="assets/preview.png" />
+    
+    <link rel="shortcut icon" href="assets/icons/clean_drive-4.png" type="image/png">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+    <link rel="stylesheet" type="text/css" href="assets/win95.css">
+      
+    <link rel="stylesheet" type="text/css" href="/assets/clippy/clippy.css" media="all">
+      
+</head>
+<body class="bg-cloud">
+<nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
+  <a class="navbar-brand" href="#">
+      <img src="assets/icons/computer-3.png"> Tech Point</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.techpointch.cf">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://dl.techpointch.cf">Downloads</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.techpointch.cf/posts">Posts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.techpointch.cf/themes">Themes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.techpointch.cf/windowsevent">Parody</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.techpointch.cf/donate">Donate</a>
+      </li>
+  
+    
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script src="assets/clippy/clippy.min.js"></script>    
+    
+    
+<script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "Kevin MacLeod",
+                    title: "Study and Relax"
+                },
+                url: "assets/Study-and-Relax.mp3",
+                duration: 223
+            }],
+        }).renderWhenReady(document.getElementById('app'));
+        
+        clippy.load('Clippy', function(agent) {
+            // Do anything with the loaded agent
+            agent.show();
+            
+            agent.speak('Looks like you`re trying to delete system32, let me help you with that. Oh, also it`s not a great idea just saying');
+        });
+    </script>    
+
+</body>
+</html>
